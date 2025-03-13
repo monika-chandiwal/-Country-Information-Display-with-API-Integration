@@ -36,6 +36,23 @@ body {
   border-radius: 0.7rem;
   margin: 0 3rem;
 }
+.neighbour {
+  transform: scale(0.8) translateY(1rem);
+  margin-left: 0;
+}
+.neighbour::before {
+  content: 'Neighbour country';
+  width: 100%;
+  position: absolute;
+  top: -4rem;
+
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #888;
+}
+
 .country_data {
   padding: 1rem 2rem 2rem 3rem;
 }
